@@ -1,0 +1,11 @@
+.container {
+  max-width: 960px;
+  background: $container-bg;
+  margin: 1em auto;
+  box-shadow: 0 2px 1px 1px #a09f9e;
+  border-radius: 5px;
+}
+.wrapper {
+  margin: auto;
+  display: block;
+}

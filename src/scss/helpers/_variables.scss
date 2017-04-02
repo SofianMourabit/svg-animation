@@ -1,0 +1,41 @@
+
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #111;
+$grey           : #edeff0;
+$scooter        : #39add1;
+$muddy-waters   : #BA8058;
+
+// Functional color variables
+
+$color-prim : $scooter;
+$color-sec : $muddy-waters;
+
+$color-link-default : $scooter;
+$color-link-visited : $black;
+
+$color-body         : $black;
+
+$body-bg            : $grey;
+$container-bg       : $white;
+
+
+// Font Stacks
+
+$font-url--google        : 'https://fonts.googleapis.com/css?family=Miriam+Libre|Source+Sans+Pro';
+$font-family--primary    : 'Miriam Libre', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary  : 'Source Sans Pro','Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Border-radius
+
+$br : 10px;
+
+// Assets path
+
+$path-image : '../images';
+
+// media query breakpoints
+$brk-mobile : 'min-width: 425px';
+$brk-narrow : 'min-width: 768px';
+$brk-wide : 'min-width: 1024px';

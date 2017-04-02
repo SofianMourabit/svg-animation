@@ -1,0 +1,17 @@
+
+.title-h1{
+  color: #BA8058;
+  margin-bottom: 2em;
+  @media ($brk-mobile){
+    display: none;
+  }
+}
+
+.icons--logo {
+  --default-color:#ba8058;
+  --primary-color: #fff;
+  --secondary-color: #f4c6a6;
+  @media ($brk-mobile){
+    --primary-color: #eaaa7f;
+  }
+}

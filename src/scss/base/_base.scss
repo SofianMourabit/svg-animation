@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  @extend %centered;
+  @include text($weight:300);
+  background: url('#{$path-image}/background.svg') $body-bg;
+}
+h1, h2{
+  font-family: $font-family--primary;
+}
+p{
+  max-width: 350px;
+}
+article,p {
+  font-family: $font-family--secondary;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: justify;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+article{
+  width: 80%;
+  color: $color-body;
+  h1{
+    text-align: center;
+  }
+}
+ol{
+  li{
+    color: $color-body;
+  }
+}
